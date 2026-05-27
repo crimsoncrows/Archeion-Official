@@ -1,0 +1,617 @@
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #ffffff 60%, #efa282 100%);
+}
+
+/*utility class styles*/
+.rows-3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rows-3 > * {
+  flex: 1 1 250px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+/*callouts*/
+.login-alert {
+  font-family: Inter;
+  font-size: 0.72em;
+}
+
+/*button styles*/
+
+.btn-primary {
+  background-color: #da602c !important;
+  border-color: #da602c !important;
+}
+
+.btn-secondary {
+  background-color: #262626 !important;
+  border-color: #262626 !important;
+}
+
+.login-btn {
+  font-family: Inter !important;
+  font-size: 0.8em;
+  padding-left: 75px;
+  padding-right: 75px;
+  border-radius: 10px;
+}
+
+.accordion-button {
+  font-family: Inter !important;
+  font-size: 0.4em !important;
+  font-weight: 600 !important;
+  color: #393939 !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #252525 !important;
+  background-color: #edeae9 !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+.accordion-button::after {
+  background-size: 0.85em !important;
+}
+
+/*universal*/
+p {
+  font-family: Inter !important;
+}
+
+h1 {
+  font-family: MuseoModerno;
+  font-weight: 600;
+  font-size: 2.5em;
+}
+
+main {
+  flex: 1;
+}
+
+/*header styles*/
+
+/*h1*/
+.h1-landing {
+  color: #bf480d;
+  letter-spacing: -2px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.h1-landing-span {
+  color: #1b1a1a;
+}
+
+.h1-login {
+  letter-spacing: -1px;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+
+.h1-tos-title {
+  font-family: MuseoModerno !important;
+  font-size: 2em !important;
+  font-weight: 700;
+  color: #BF480D;
+  letter-spacing: -1px;
+  margin-bottom: 4px;
+}
+
+
+
+/*h2*/
+.accordion-item {
+  font-family: Inter !important;
+}
+
+.about-brand-name {
+  font-family: Instrument Serif;
+  font-size: 2em;
+  color: #bf480d;
+  margin-bottom: 2px;
+}
+
+/*h3*/
+.h3-landing-steps {
+  font-family: MuseoModerno;
+  font-weight: 600;
+  letter-spacing: -1px;
+  font-size: 2.5em;
+  color: #bf480d;
+  background-color: #f8b396;
+  padding: 10px;
+  border-radius: 10px;
+}
+.h3-landing-subheading {
+  font-family: Instrument Serif;
+  font-weight: 200;
+  letter-spacing: -1px;
+  font-size: 1.6em;
+  color: #323232;
+}
+
+/*h4*/
+
+/*h5*/
+.h5-landing {
+  font-family: MuseoModerno;
+  font-weight: 600;
+  letter-spacing: -1px;
+  font-size: 1.5em;
+  color: #bf480d;
+}
+
+/*h6*/
+
+/*p*/
+.p-landing-hero,
+.p-landing-subheading,
+.p-steps,
+.p-login-sub,
+.signup-card .form-check-label,
+.about-brand-sub {
+  font-size: 0.75em;
+  text-align: center;
+  color: rgb(69, 69, 69);
+}
+
+.p-landing {
+  font-size: 0.75em;
+  text-align: left;
+  color: rgb(106, 105, 105);
+}
+
+.p-tos-date {
+  font-family: Inter;
+  font-size: 0.75em;
+  color: #888;
+  margin-bottom: 16px;
+}
+
+.tos-item p {
+  font-family: Inter;
+  font-size: 0.80em;
+  color: #444;
+  line-height: 1.8;
+  margin-bottom: 0;
+  text-align: justify;
+}
+
+
+/*a*/
+.button-group-landing a {
+  font-family: Inter !important;
+  font-size: 0.85em;
+  border-radius: 15px;
+  font-weight: 300;
+  padding: 15px 30px;
+}
+
+.button-group-landing a {
+  padding: 15px 30px;
+}
+
+.footer-links a {
+  color: #aaaaaa;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: #da602c;
+}
+
+.forgot-pass {
+  font-family: Inter !important;
+  font-size: 0.7em;
+  font-weight: 400;
+  color: #da602c;
+}
+
+/*multiple*/
+.landing-card-dark .p-landing,
+.landing-card-dark .h5-landing {
+  color: rgb(241, 241, 241);
+}
+
+.signup-text {
+  font-family: Inter;
+  font-size: 0.82em;
+  color: #555;
+}
+
+.signup-link {
+  color: #bf480d;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
+
+.form-check-label {
+  font-family: Inter !important;
+  font-size: 0.82em !important;
+}
+
+.form-check-input:checked {
+  background-color: #bf480d !important;
+  border-color: #bf480d !important;
+}
+
+/*navbar styles*/
+
+.navbar {
+  background-color: rgb(255, 255, 255) !important;
+  border-bottom: 1px solid rgba(152, 152, 152, 0.306) !important;
+  padding-left: 30px;
+  font-family: Inter !important;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.nav-link {
+  color: rgb(59, 59, 59) !important;
+  font-size: 12px !important;
+}
+
+.navbar-toggler-icon {
+  width: 1.1rem;
+  height: 1.1rem;
+}
+
+/*image styles*/
+
+.navbar-brand img {
+  max-width: 75px;
+  max-height: 75px;
+}
+
+.landing-hero-img {
+  max-width: 200px;
+  max-height: 200px;
+  padding-bottom: 20px;
+}
+
+.landing-card-img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.login-left img {
+  width: 100%;
+  max-width: 380px;
+}
+
+
+
+
+
+/*about*/
+.about-accordion-wrap {
+  flex: 1;
+  max-width: 600px;
+  width: 100%;
+}
+
+.about-accordion-wrap .accordion-item {
+  border: 1px solid #e0e0e0;
+  border-radius: 0 !important;
+  margin-bottom: 0;
+}
+
+.about-accordion-wrap .accordion-item {
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 10px !important;
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+
+.accordion-collapse {
+  font-size: 0.8em !important;
+}
+
+
+/*tos*/
+.tos-content {
+  flex: 1;
+  max-width: 600px;
+  width: 100%;
+}
+
+
+
+.tos-intro {
+  font-family: Inter;
+  font-size: 0.80em;
+  color: #444;
+  line-height: 1.8;
+  margin-bottom: 24px;
+}
+
+.tos-item {
+  margin-bottom: 20px;
+}
+
+.tos-item-heading {
+  font-family: Inter;
+  font-size: 0.88em !important;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+}
+
+.tos-num {
+  color: #BF480D;
+}
+
+
+
+
+/*landing page styles*/
+.landing-card {
+  background-color: #fafafa;
+  padding: 30px 40px;
+  border-radius: 20px;
+  border: 1px solid rgb(214, 214, 214);
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.landing-card-dark {
+  background-color: #343434;
+  border-color: #343434;
+  color: white;
+}
+
+.landing-features-container {
+  margin-top: 50px;
+}
+
+.button-group-landing {
+  flex-wrap: wrap;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.landing-card-steps {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid rgb(214, 214, 214);
+  width: 100%;
+  max-width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.features-card {
+}
+
+.features-card > div {
+  min-width: 0;
+  overflow-wrap: break-word;
+}
+
+.hero-banner {
+  margin-top: 100px;
+}
+
+.landing-end {
+  margin-bottom: 150px;
+}
+
+/*login*/
+.input-group .form-control {
+  font-family: Inter !important;
+  font-size: 0.8em !important;
+}
+
+.form-group > label {
+  font-family: Inter !important;
+  font-size: 0.8em !important;
+  font-weight: 700;
+}
+
+.form-group > input {
+  font-family: Inter !important;
+  font-size: 0.8em !important;
+}
+
+.login-card {
+  border: 1px solid rgb(223, 218, 218) !important;
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: fit-content;
+  height: fit-content;
+  padding: 60px;
+}
+
+.login-main {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+.login-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.login-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 50px 45px;
+  width: 420px;
+  flex-shrink: 0;
+}
+
+.form-group > label {
+  font-family: Inter;
+  font-size: 0.85em;
+  font-weight: 700;
+}
+
+.form-group > input {
+  font-family: Inter;
+  font-size: 0.85em;
+}
+
+.forgot-pass {
+  font-family: Inter;
+  font-size: 0.82em;
+  color: #bf480d;
+  text-decoration: none;
+  text-align: right;
+}
+
+.forgot-pass:hover {
+  text-decoration: underline;
+  color: #bf480d;
+}
+
+.login-btn {
+  background-color: #bf480d;
+  color: #ffffff;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 0.9em;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+}
+
+.login-btn:hover {
+  background-color: #a33d0b;
+  color: #fff;
+}
+
+/*signup*/
+
+.signup-card .form-label {
+  font-family: Inter;
+  font-size: 0.85em !important;
+  font-weight: 700;
+}
+
+.signup-card .form-control {
+  font-family: Inter;
+  font-size: 0.8em !important;
+}
+
+.footer {
+  background-color: #262626;
+  color: #aaaaaa;
+  padding: 18px 0;
+  font-family: Inter;
+  font-size: 0.75em;
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer-copy {
+  color: #f4f4f4;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.footer-brand {
+  color: #888888;
+  text-align: center;
+  flex: 1;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-end;
+}
+
+/*animations*/
+
+/* Responsive */
+@media (max-width: 768px) {
+  .login-left {
+    display: none;
+  }
+  .login-card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .landing-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .landing-card-img {
+    margin-bottom: 15px;
+    margin-right: 0 !important;
+  }
+
+  .landing-card .p-landing {
+    text-align: center;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-links {
+    justify-content: center;
+  }
+}
