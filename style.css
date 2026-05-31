@@ -117,6 +117,23 @@ main {
   margin-bottom: 4px;
 }
 
+.h1-browse-title {
+  color: #BF480D;
+  font-family: MuseoModerno !important;
+  font-size: 2em !important;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.h1-detail-title {
+  font-family: Instrument Serif !important;
+  font-size: 2em !important;
+  font-weight: 400;
+  color: #BF480D;
+  line-height: 1.4;
+  letter-spacing: -0.5px;
+  margin-bottom: 16px;
+}
 
 
 /*h2*/
@@ -162,6 +179,16 @@ main {
 }
 
 /*h6*/
+.h6-detail-side-title {
+  font-family: MuseoModerno;
+  font-size: 1em;
+  font-weight: 700;
+  color: #E97746;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
 
 /*p*/
 .p-landing-hero,
@@ -198,6 +225,39 @@ main {
 }
 
 
+.p-browse-sub {
+  color: #666;
+  font-family: Inter, sans-serif;
+  font-size: 0.78em;
+}
+
+.p-detail-download-note {
+  font-size: 0.72em;
+  color: #d3d1d1;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.p-detail-section-label {
+  font-family: Inter, sans-serif;
+  font-size: 0.72em;
+  font-weight: 700;
+  color: #BF480D;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  margin-top: 25px;
+}
+
+.p-detail-abstract {
+  font-family: Inter, sans-serif;
+  font-size: 0.80em;
+  color: #444;
+  line-height: 1.9;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+
 /*a*/
 .button-group-landing a {
   font-family: Inter !important;
@@ -209,6 +269,17 @@ main {
 
 .button-group-landing a {
   padding: 15px 30px;
+}
+
+.detail-back {
+  font-family: Inter, sans-serif;
+  font-size: 0.78em;
+  color: #555;
+  text-decoration: none;
+}
+
+.detail-back:hover {
+  color: #BF480D;
 }
 
 .footer-links a {
@@ -228,6 +299,7 @@ main {
   font-weight: 400;
   color: #da602c;
 }
+
 
 /*multiple*/
 .landing-card-dark .p-landing,
@@ -541,6 +613,169 @@ main {
   font-family: Inter;
   font-size: 0.8em !important;
 }
+
+
+/* Browse */
+.browse-search {
+  border-radius: 8px;
+  font-family: Inter, sans-serif;
+  font-size: 0.82em !important;
+  max-width: 520px;
+}
+
+.browse-search:focus {
+  border-color: #BF480D;
+}
+
+.browse-btn-search {
+  border-radius: 8px;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 0.82em;
+  font-weight: 600;
+  padding: 8px 20px;
+  white-space: nowrap;
+}
+
+
+.browse-btn-filter {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  color: #1a1a1a;
+  font-family: Inter, sans-serif;
+  font-size: 0.82em;
+  font-weight: 600;
+  padding: 8px 20px;
+  white-space: nowrap;
+}
+
+.browse-btn-filter:hover {
+  background-color: #191919;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Browse Detail */
+
+.full-text-info{
+  font-family: Inter !important;
+  font-size: 0.7em !important;
+
+}
+
+
+.detail-main-card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 40px;
+}
+
+
+
+.detail-badge {
+  font-family: Inter;
+  font-size: 0.75em;
+  font-weight: 500;
+  background-color: #363130;
+  color: #fff;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius:12px;
+}
+
+.detail-side-card {
+  background-color: #363130;
+  border-radius: 16px;
+  padding: 28px;
+  color: #fff;
+  position: sticky;
+  top: 90px;
+}
+
+
+
+.detail-meta-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+
+.detail-meta-label {
+  font-family: Inter, sans-serif;
+  font-size: 0.70em;
+  font-weight: 700;
+  color: #f0f0f0;
+  margin-bottom: 2px;
+}
+
+.detail-meta-value {
+  font-family: Inter, sans-serif;
+  font-size: 0.78em;
+  color: #f0f0f0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer {
   background-color: #262626;
