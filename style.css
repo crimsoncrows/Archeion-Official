@@ -7,13 +7,14 @@ body {
   background: linear-gradient(to bottom, #ffffff 60%, #efa282 100%);
 }
 
+
 /*utility class styles*/
 .rows-3 {
   display: flex;
   flex-wrap: wrap;
 }
 
-.rows-3 > * {
+.rows-3>* {
   flex: 1 1 250px;
 }
 
@@ -36,20 +37,26 @@ body {
 .btn-primary {
   background-color: #da602c !important;
   border-color: #da602c !important;
+  font-family: Inter !important;
+
 }
 
 .btn-secondary {
   background-color: #262626 !important;
   border-color: #262626 !important;
+  font-family: Inter !important;
+
 }
 
-.login-btn {
+.login-btn, .error-btn {
   font-family: Inter !important;
   font-size: 0.8em;
   padding-left: 75px;
   padding-right: 75px;
   border-radius: 10px;
 }
+
+
 
 .accordion-button {
   font-family: Inter !important;
@@ -107,6 +114,13 @@ main {
   font-weight: 700;
 }
 
+.h1-error-title {
+  color: #BF480D;
+  font-family: MuseoModerno !important;
+  font-size: 2.5em !important;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
 
 .h1-tos-title {
   font-family: MuseoModerno !important;
@@ -159,6 +173,7 @@ main {
   padding: 10px;
   border-radius: 10px;
 }
+
 .h3-landing-subheading {
   font-family: Instrument Serif;
   font-weight: 200;
@@ -257,6 +272,21 @@ main {
   margin-top: 20px;
 }
 
+.p-error-sub {
+  color: #555;
+  font-family: Inter, sans-serif;
+  font-size: 0.82em;
+  margin-bottom: 4px;
+}
+
+.p-error-code {
+  color: #030202;
+  font-family: Inter, sans-serif;
+  font-size: 0.78em;
+  font-weight: 700;
+}
+
+
 
 /*a*/
 .button-group-landing a {
@@ -332,6 +362,24 @@ main {
   background-color: #bf480d !important;
   border-color: #bf480d !important;
 }
+
+/*Error pages*/
+.error-main {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.error-icon {
+  color: #2b2b2b;
+  display: block;
+  font-size:7em;
+  margin-bottom: 20px;
+}
+
+
+
 
 /*navbar styles*/
 
@@ -486,10 +534,8 @@ main {
   text-align: center;
 }
 
-.features-card {
-}
 
-.features-card > div {
+.features-card>div {
   min-width: 0;
   overflow-wrap: break-word;
 }
@@ -508,13 +554,13 @@ main {
   font-size: 0.8em !important;
 }
 
-.form-group > label {
+.form-group>label {
   font-family: Inter !important;
   font-size: 0.8em !important;
   font-weight: 700;
 }
 
-.form-group > input {
+.form-group>input {
   font-family: Inter !important;
   font-size: 0.8em !important;
 }
@@ -560,13 +606,13 @@ main {
   flex-shrink: 0;
 }
 
-.form-group > label {
+.form-group>label {
   font-family: Inter;
   font-size: 0.85em;
   font-weight: 700;
 }
 
-.form-group > input {
+.form-group>input {
   font-family: Inter;
   font-size: 0.85em;
 }
@@ -679,7 +725,7 @@ main {
 
 /* Browse Detail */
 
-.full-text-info{
+.full-text-info {
   font-family: Inter !important;
   font-size: 0.7em !important;
 
@@ -704,7 +750,7 @@ main {
   padding: 10px;
   padding-left: 25px;
   padding-right: 25px;
-  border-radius:12px;
+  border-radius: 12px;
 }
 
 .detail-side-card {
@@ -819,6 +865,7 @@ main {
   .login-left {
     display: none;
   }
+
   .login-card {
     width: 100%;
   }
