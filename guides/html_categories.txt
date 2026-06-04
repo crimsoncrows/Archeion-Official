@@ -1,0 +1,41 @@
+UTILITY HTML 
+----------------
+403
+404
+500
+RESTRICTED
+----------------
+
+
+STATIC (WIP)
+----------------
+
+ABOUT
+TOS
+----------------
+
+
+
+USER (WIP)
+----------------
+
+BROWSE
+LANDING
+DOCUMENT_INFO
+LOGIN
+SIGNUP
+----------------
+
+
+ADMIN
+----------------
+TO BE DESIGNED
+----------------
+
+
+LAYOUTS (TO BE USED AS EXTENDED HTML FOR DJANGO TEMPLATES)
+----------------
+
+LAYOUT (NAVBAR AND FOOTER, PLACE CONTENT IN MAIN TAG)
+----------------
+

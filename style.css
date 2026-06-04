@@ -1,12 +1,11 @@
 body {
-  min-height: 100vh;
-  overflow-x: hidden;
+  background: linear-gradient(to bottom, #ffffff 60%, #efa282 100%);
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(to bottom, #ffffff 60%, #efa282 100%);
+  min-height: 100vh;
+  overflow-x: hidden;
 }
-
 
 /*utility class styles*/
 .rows-3 {
@@ -33,41 +32,37 @@ body {
 }
 
 /*button styles*/
-
 .btn-primary {
   background-color: #da602c !important;
   border-color: #da602c !important;
   font-family: Inter !important;
-
 }
 
 .btn-secondary {
   background-color: #262626 !important;
   border-color: #262626 !important;
   font-family: Inter !important;
-
 }
 
-.login-btn, .error-btn {
+.login-btn,
+.error-btn {
+  border-radius: 10px;
   font-family: Inter !important;
   font-size: 0.8em;
   padding-left: 75px;
   padding-right: 75px;
-  border-radius: 10px;
 }
 
-
-
 .accordion-button {
+  color: #393939 !important;
   font-family: Inter !important;
   font-size: 0.4em !important;
   font-weight: 600 !important;
-  color: #393939 !important;
 }
 
 .accordion-button:not(.collapsed) {
-  color: #252525 !important;
   background-color: #edeae9 !important;
+  color: #252525 !important;
 }
 
 .accordion-button:focus {
@@ -85,8 +80,8 @@ p {
 
 h1 {
   font-family: MuseoModerno;
-  font-weight: 600;
   font-size: 2.5em;
+  font-weight: 600;
 }
 
 main {
@@ -94,13 +89,12 @@ main {
 }
 
 /*header styles*/
-
 /*h1*/
 .h1-landing {
   color: #bf480d;
   letter-spacing: -2px;
-  text-align: center;
   line-height: 40px;
+  text-align: center;
 }
 
 .h1-landing-span {
@@ -108,14 +102,14 @@ main {
 }
 
 .h1-login {
-  letter-spacing: -1px;
-  text-align: center;
-  line-height: 40px;
   font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 40px;
+  text-align: center;
 }
 
 .h1-error-title {
-  color: #BF480D;
+  color: #bf480d;
   font-family: MuseoModerno !important;
   font-size: 2.5em !important;
   font-weight: 700;
@@ -123,16 +117,16 @@ main {
 }
 
 .h1-tos-title {
+  color: #bf480d;
   font-family: MuseoModerno !important;
   font-size: 2em !important;
   font-weight: 700;
-  color: #BF480D;
   letter-spacing: -1px;
   margin-bottom: 4px;
 }
 
 .h1-browse-title {
-  color: #BF480D;
+  color: #bf480d;
   font-family: MuseoModerno !important;
   font-size: 2em !important;
   font-weight: 700;
@@ -140,15 +134,14 @@ main {
 }
 
 .h1-detail-title {
+  color: #bf480d;
   font-family: Instrument Serif !important;
   font-size: 2em !important;
   font-weight: 400;
-  color: #BF480D;
-  line-height: 1.4;
   letter-spacing: -0.5px;
+  line-height: 1.4;
   margin-bottom: 16px;
 }
-
 
 /*h2*/
 .accordion-item {
@@ -156,54 +149,51 @@ main {
 }
 
 .about-brand-name {
+  color: #bf480d;
   font-family: Instrument Serif;
   font-size: 2em;
-  color: #bf480d;
   margin-bottom: 2px;
 }
 
 /*h3*/
 .h3-landing-steps {
+  background-color: #f8b396;
+  border-radius: 10px;
+  color: #bf480d;
   font-family: MuseoModerno;
+  font-size: 2.5em;
   font-weight: 600;
   letter-spacing: -1px;
-  font-size: 2.5em;
-  color: #bf480d;
-  background-color: #f8b396;
   padding: 10px;
-  border-radius: 10px;
 }
 
 .h3-landing-subheading {
+  color: #323232;
   font-family: Instrument Serif;
+  font-size: 1.6em;
   font-weight: 200;
   letter-spacing: -1px;
-  font-size: 1.6em;
-  color: #323232;
 }
 
 /*h4*/
-
 /*h5*/
 .h5-landing {
+  color: #bf480d;
   font-family: MuseoModerno;
+  font-size: 1.5em;
   font-weight: 600;
   letter-spacing: -1px;
-  font-size: 1.5em;
-  color: #bf480d;
 }
 
 /*h6*/
 .h6-detail-side-title {
+  color: #e97746;
   font-family: MuseoModerno;
   font-size: 1em;
   font-weight: 700;
-  color: #E97746;
   margin-bottom: 20px;
   text-align: center;
 }
-
-
 
 /*p*/
 .p-landing-hero,
@@ -212,33 +202,32 @@ main {
 .p-login-sub,
 .signup-card .form-check-label,
 .about-brand-sub {
+  color: rgb(69, 69, 69);
   font-size: 0.75em;
   text-align: center;
-  color: rgb(69, 69, 69);
 }
 
 .p-landing {
+  color: rgb(106, 105, 105);
   font-size: 0.75em;
   text-align: left;
-  color: rgb(106, 105, 105);
 }
 
 .p-tos-date {
+  color: #888;
   font-family: Inter;
   font-size: 0.75em;
-  color: #888;
   margin-bottom: 16px;
 }
 
 .tos-item p {
-  font-family: Inter;
-  font-size: 0.80em;
   color: #444;
+  font-family: Inter;
+  font-size: 0.8em;
   line-height: 1.8;
   margin-bottom: 0;
   text-align: justify;
 }
-
 
 .p-browse-sub {
   color: #666;
@@ -247,29 +236,29 @@ main {
 }
 
 .p-detail-download-note {
-  font-size: 0.72em;
   color: #d3d1d1;
-  text-align: center;
+  font-size: 0.72em;
   margin-bottom: 12px;
+  text-align: center;
 }
 
 .p-detail-section-label {
+  color: #bf480d;
   font-family: Inter, sans-serif;
   font-size: 0.72em;
   font-weight: 700;
-  color: #BF480D;
   letter-spacing: 1px;
   margin-bottom: 8px;
   margin-top: 25px;
 }
 
 .p-detail-abstract {
-  font-family: Inter, sans-serif;
-  font-size: 0.80em;
   color: #444;
+  font-family: Inter, sans-serif;
+  font-size: 0.8em;
   line-height: 1.9;
-  text-align: justify;
   margin-top: 20px;
+  text-align: justify;
 }
 
 .p-error-sub {
@@ -286,13 +275,11 @@ main {
   font-weight: 700;
 }
 
-
-
 /*a*/
 .button-group-landing a {
+  border-radius: 15px;
   font-family: Inter !important;
   font-size: 0.85em;
-  border-radius: 15px;
   font-weight: 300;
   padding: 15px 30px;
 }
@@ -302,21 +289,21 @@ main {
 }
 
 .detail-back {
+  color: #555;
   font-family: Inter, sans-serif;
   font-size: 0.78em;
-  color: #555;
   text-decoration: none;
 }
 
 .detail-back:hover {
-  color: #BF480D;
+  color: #bf480d;
 }
 
 .footer-links a {
   color: #aaaaaa;
   text-decoration: none;
-  white-space: nowrap;
   transition: color 0.2s;
+  white-space: nowrap;
 }
 
 .footer-links a:hover {
@@ -324,12 +311,11 @@ main {
 }
 
 .forgot-pass {
+  color: #da602c;
   font-family: Inter !important;
   font-size: 0.7em;
   font-weight: 400;
-  color: #da602c;
 }
-
 
 /*multiple*/
 .landing-card-dark .p-landing,
@@ -338,9 +324,9 @@ main {
 }
 
 .signup-text {
+  color: #555;
   font-family: Inter;
   font-size: 0.82em;
-  color: #555;
 }
 
 .signup-link {
@@ -374,22 +360,18 @@ main {
 .error-icon {
   color: #2b2b2b;
   display: block;
-  font-size:7em;
+  font-size: 7em;
   margin-bottom: 20px;
 }
 
-
-
-
 /*navbar styles*/
-
 .navbar {
   background-color: rgb(255, 255, 255) !important;
   border-bottom: 1px solid rgba(152, 152, 152, 0.306) !important;
-  padding-left: 30px;
   font-family: Inter !important;
   font-weight: 400;
   margin-bottom: 0px;
+  padding-left: 30px;
 }
 
 .nav-link {
@@ -398,36 +380,31 @@ main {
 }
 
 .navbar-toggler-icon {
-  width: 1.1rem;
   height: 1.1rem;
+  width: 1.1rem;
 }
 
 /*image styles*/
-
 .navbar-brand img {
-  max-width: 75px;
   max-height: 75px;
+  max-width: 75px;
 }
 
 .landing-hero-img {
-  max-width: 200px;
   max-height: 200px;
+  max-width: 200px;
   padding-bottom: 20px;
 }
 
 .landing-card-img {
-  max-width: 100px;
   max-height: 100px;
+  max-width: 100px;
 }
 
 .login-left img {
-  width: 100%;
   max-width: 380px;
+  width: 100%;
 }
-
-
-
-
 
 /*about*/
 .about-accordion-wrap {
@@ -453,7 +430,6 @@ main {
   font-size: 0.8em !important;
 }
 
-
 /*tos*/
 .tos-content {
   flex: 1;
@@ -461,12 +437,10 @@ main {
   width: 100%;
 }
 
-
-
 .tos-intro {
-  font-family: Inter;
-  font-size: 0.80em;
   color: #444;
+  font-family: Inter;
+  font-size: 0.8em;
   line-height: 1.8;
   margin-bottom: 24px;
 }
@@ -476,32 +450,29 @@ main {
 }
 
 .tos-item-heading {
+  color: #1a1a1a;
   font-family: Inter;
   font-size: 0.88em !important;
   font-weight: 700;
-  color: #1a1a1a;
   margin-bottom: 4px;
 }
 
 .tos-num {
-  color: #BF480D;
+  color: #bf480d;
 }
-
-
-
 
 /*landing page styles*/
 .landing-card {
   background-color: #fafafa;
-  padding: 30px 40px;
-  border-radius: 20px;
   border: 1px solid rgb(214, 214, 214);
-  width: 100%;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+  border-radius: 20px;
   box-sizing: border-box;
   margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  padding: 30px 40px;
+  width: 100%;
 }
 
 .landing-card-dark {
@@ -522,18 +493,17 @@ main {
 
 .landing-card-steps {
   background-color: #ffffff;
-  padding: 20px;
-  border-radius: 20px;
   border: 1px solid rgb(214, 214, 214);
-  width: 100%;
-  max-width: 260px;
-  margin-left: auto;
-  margin-right: auto;
+  border-radius: 20px;
   box-sizing: border-box;
   margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 260px;
+  padding: 20px;
   text-align: center;
+  width: 100%;
 }
-
 
 .features-card>div {
   min-width: 0;
@@ -566,44 +536,44 @@ main {
 }
 
 .login-card {
-  border: 1px solid rgb(223, 218, 218) !important;
   background-color: #ffffff;
+  border: 1px solid rgb(223, 218, 218) !important;
   border-radius: 20px;
-  width: fit-content;
   height: fit-content;
   padding: 60px;
+  width: fit-content;
 }
 
 .login-main {
-  min-height: 80vh;
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
+  min-height: 80vh;
   padding: 60px 20px;
 }
 
 .login-wrapper {
-  display: flex;
   align-items: center;
-  justify-content: center;
+  display: flex;
   gap: 60px;
-  width: 100%;
+  justify-content: center;
   max-width: 1000px;
+  width: 100%;
 }
 
 .login-left {
-  flex: 1;
-  display: flex;
   align-items: center;
+  display: flex;
+  flex: 1;
   justify-content: center;
 }
 
 .login-card {
   background-color: #ffffff;
   border-radius: 20px;
+  flex-shrink: 0;
   padding: 50px 45px;
   width: 420px;
-  flex-shrink: 0;
 }
 
 .form-group>label {
@@ -618,27 +588,27 @@ main {
 }
 
 .forgot-pass {
+  color: #bf480d;
   font-family: Inter;
   font-size: 0.82em;
-  color: #bf480d;
-  text-decoration: none;
   text-align: right;
+  text-decoration: none;
 }
 
 .forgot-pass:hover {
-  text-decoration: underline;
   color: #bf480d;
+  text-decoration: underline;
 }
 
 .login-btn {
   background-color: #bf480d;
+  border: none;
+  border-radius: 8px;
   color: #ffffff;
   font-family: Inter;
-  font-weight: 600;
   font-size: 0.9em;
+  font-weight: 600;
   padding: 10px;
-  border-radius: 8px;
-  border: none;
   width: 100%;
 }
 
@@ -648,7 +618,6 @@ main {
 }
 
 /*signup*/
-
 .signup-card .form-label {
   font-family: Inter;
   font-size: 0.85em !important;
@@ -660,7 +629,6 @@ main {
   font-size: 0.8em !important;
 }
 
-
 /* Browse */
 .browse-search {
   border-radius: 8px;
@@ -670,7 +638,7 @@ main {
 }
 
 .browse-search:focus {
-  border-color: #BF480D;
+  border-color: #bf480d;
 }
 
 .browse-btn-search {
@@ -682,7 +650,6 @@ main {
   padding: 8px 20px;
   white-space: nowrap;
 }
-
 
 .browse-btn-filter {
   background-color: #fff;
@@ -700,37 +667,11 @@ main {
   background-color: #191919;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Browse Detail */
-
 .full-text-info {
   font-family: Inter !important;
   font-size: 0.7em !important;
-
 }
-
 
 .detail-main-card {
   background-color: #fff;
@@ -739,30 +680,26 @@ main {
   padding: 40px;
 }
 
-
-
 .detail-badge {
+  background-color: #363130;
+  border-radius: 12px;
+  color: #fff;
   font-family: Inter;
   font-size: 0.75em;
   font-weight: 500;
-  background-color: #363130;
-  color: #fff;
   padding: 10px;
   padding-left: 25px;
   padding-right: 25px;
-  border-radius: 12px;
 }
 
 .detail-side-card {
   background-color: #363130;
   border-radius: 16px;
-  padding: 28px;
   color: #fff;
+  padding: 28px;
   position: sticky;
   top: 90px;
 }
-
-
 
 .detail-meta-item {
   display: flex;
@@ -771,72 +708,33 @@ main {
 }
 
 .detail-meta-label {
-  font-family: Inter, sans-serif;
-  font-size: 0.70em;
-  font-weight: 700;
   color: #f0f0f0;
+  font-family: Inter, sans-serif;
+  font-size: 0.7em;
+  font-weight: 700;
   margin-bottom: 2px;
 }
 
 .detail-meta-value {
+  color: #f0f0f0;
   font-family: Inter, sans-serif;
   font-size: 0.78em;
-  color: #f0f0f0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .footer {
   background-color: #262626;
   color: #aaaaaa;
-  padding: 18px 0;
   font-family: Inter;
   font-size: 0.75em;
+  padding: 18px 0;
 }
 
 .footer-inner {
-  display: flex;
   align-items: center;
-  justify-content: space-between;
+  display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  justify-content: space-between;
 }
 
 .footer-copy {
@@ -847,8 +745,8 @@ main {
 
 .footer-brand {
   color: #888888;
-  text-align: center;
   flex: 1;
+  text-align: center;
 }
 
 .footer-links {
@@ -859,7 +757,6 @@ main {
 }
 
 /*animations*/
-
 /* Responsive */
 @media (max-width: 768px) {
   .login-left {
@@ -873,8 +770,8 @@ main {
 
 @media (max-width: 576px) {
   .landing-card {
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     text-align: center;
   }
 
@@ -888,8 +785,8 @@ main {
   }
 
   .footer-inner {
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     text-align: center;
   }
 

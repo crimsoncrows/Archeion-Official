@@ -1,0 +1,235 @@
+
+BOOTSTRAP CLASSES KEYWORDS
+
+Layout
+----------------
+container, container-fluid
+row
+col, col-1 to col-12
+col-sm-*, col-md-*, col-lg-*, col-xl-*
+g-*, gx-*, gy-* (gutters)
+offset-*
+----------------
+
+Flexbox
+----------------
+d-flex, d-inline-flex
+flex-row, flex-column
+flex-wrap, flex-nowrap
+justify-content-start/center/end/between/around/evenly
+align-items-start/center/end
+align-self-*
+flex-grow-1, flex-shrink-0
+gap-*, gap-x-*, gap-y-*
+ms-auto, me-auto
+----------------
+
+Display
+----------------
+d-none, d-block, d-inline, d-inline-block
+d-sm-*, d-md-*, d-lg-* (responsive display)
+visible, invisible
+----------------
+
+Spacing
+----------------
+m-*, mt-*, mb-*, ms-*, me-*, mx-*, my-*
+p-*, pt-*, pb-*, ps-*, pe-*, px-*, py-*
+(0 to 5, and auto)
+----------------
+
+Typography
+----------------
+fs-1 to fs-6
+fw-light/normal/bold/bolder/semibold
+fst-italic, fst-normal
+text-start/center/end
+text-uppercase/lowercase/capitalize
+text-truncate
+text-wrap, text-nowrap
+text-decoration-none/underline
+lh-1/sm/base/lg
+----------------
+
+
+Colors
+----------------
+text-primary/secondary/success/danger/warning/info/light/dark/muted
+bg-primary/secondary/success/danger/warning/info/light/dark/white
+bg-opacity-* (10/25/50/75/100)
+text-opacity-*
+----------------
+
+Buttons
+----------------
+btn
+btn-primary/secondary/success/danger/warning/info/light/dark
+btn-outline-primary/secondary/success/danger/warning/info/light/dark
+btn-sm, btn-lg
+btn-group
+w-100 (full width button)
+----------------
+
+Forms
+----------------
+
+form-control, form-control-sm, form-control-lg
+form-label
+form-text
+form-check, form-check-input, form-check-label
+form-select
+form-switch
+input-group, input-group-text
+was-validated
+is-valid, is-invalid
+valid-feedback, invalid-feedback
+----------------
+
+Cards
+----------------
+card
+card-body
+card-header, card-footer
+card-title, card-subtitle
+card-text
+card-img-top, card-img-bottom
+card-img-overlay
+----------------
+
+Navbar
+----------------
+navbar
+navbar-expand-sm/md/lg/xl
+navbar-light, navbar-dark
+navbar-brand
+navbar-nav
+nav-item, nav-link
+navbar-toggler, navbar-toggler-icon
+navbar-collapse
+fixed-top, sticky-to
+----------------
+
+Alerts
+----------------
+alert
+alert-primary/secondary/success/danger/warning/info/light/dark
+alert-dismissible
+alert-heading
+alert-link
+fade, show
+----------------
+
+
+Badges
+----------------
+badge
+rounded-pill
+bg-primary/secondary/success/danger/warning/info/light/dark
+----------------
+
+
+Tables
+----------------
+table
+table-striped, table-striped-columns
+table-bordered, table-borderless
+table-hover
+table-sm
+table-responsive
+table-dark
+table-primary/secondary/success/danger/warning/info/light/dark
+----------------
+
+Modals
+----------------
+modal, modal-dialog
+modal-content
+modal-header, modal-body, modal-footer
+modal-title
+modal-sm, modal-lg, modal-xl
+modal-fullscreen
+modal-dialog-centered
+modal-dialog-scrollable
+----------------
+
+Accordion
+----------------
+accordion, accordion-flush
+accordion-item
+accordion-header
+accordion-button, collapsed
+accordion-collapse, collapse, show
+accordion-body
+----------------
+
+Pagination
+----------------
+pagination, pagination-sm, pagination-lg
+page-item, active, disabled
+page-link
+----------------
+
+Spinners
+----------------
+spinner-border, spinner-border-sm
+spinner-grow, spinner-grow-sm
+text-primary/secondary/etc
+----------------
+
+Toasts
+----------------
+toast, toast-container
+toast-header, toast-body
+showing, show, hide
+position-fixed, bottom-0, end-0
+----------------
+
+Utilities
+----------------
+rounded, rounded-0/1/2/3/4/5/circle/pill
+shadow, shadow-sm, shadow-lg, shadow-none
+border, border-0/1/2/3/4/5
+border-primary/secondary/etc
+w-25/50/75/100/auto
+h-25/50/75/100/auto
+mw-100, mh-100
+min-vw-100, min-vh-100
+overflow-auto/hidden/scroll/visible
+position-relative/absolute/fixed/sticky
+top-0/50/100, bottom-0/50/100
+start-0/50/100, end-0/50/100
+translate-middle
+z-index (z-0/1/2/3/n1)
+ratio, ratio-1x1/4x3/16x9/21x9
+----------------
+
+Collapse & Toggling
+----------------
+collapse, collapsing
+show
+----------------
+
+List Group
+----------------
+list-group, list-group-flush
+list-group-item
+list-group-item-action
+active, disabled
+list-group-item-primary/secondary/etc
+list-group-numbered
+----------------
+
+Progress
+----------------
+progress
+progress-bar
+progress-bar-striped
+progress-bar-animated
+----------------
+
+Breadcrumb
+----------------
+breadcrumb
+breadcrumb-item
+active
+----------------
