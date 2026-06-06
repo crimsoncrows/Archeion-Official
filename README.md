@@ -5,7 +5,7 @@ PREREQUISITE : Send email for collaboration
  
 ---
 
-🟢 ### Simple Option (if Git feels too complex)
+## 🟢 Simple Option (if Git feels too complex)
 If you're not comfortable with Git yet, you can still contribute:
 
 Work on your HTML file locally in VS Code
