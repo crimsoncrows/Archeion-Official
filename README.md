@@ -6,6 +6,11 @@ PREREQUISITE : Send email for collaboration
 ---
 
 ## 🟢 Simple Option (if Git feels too complex)
+### (COPY THE LINKS INSIDE LAYOUT.HTML HEAD TAG, REQUIRED FOR BOOTSTRAP TO WORK. Refer to https://getbootstrap.com/ for documentation.)
+### (Use style.css for reference and guides folder @ uiUpdate2 Branch)
+### (Clone uiUpdate2 NOT MAIN)
+
+
 If you're not comfortable with Git yet, you can still contribute:
 
 Work on your HTML file locally in VS Code
