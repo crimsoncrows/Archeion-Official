@@ -1,6 +1,6 @@
-# Archeion — How to Contribute (Beginner Guide)
-> Hi! This guide will walk you through everything step by step. You don't need to know Git — just follow along. When in doubt, message the group chat.
-
+> **How To Use GitHub + VSCode: Create a Repository & Merge Changes With a Pull Request**
+> 🔗 https://www.youtube.com/watch?v=eLmpKKaQL54
+ 
 ---
 
 ## 🔧 One-Time Setup (do this once)
@@ -99,12 +99,3 @@ Do this every time you start a new work session.
 
 ---
 
-## ❌ Things NOT to Do
-- Don't push directly to `uiUpdate2` or `main`
-- Don't write vague commit messages like "update" or "fixed stuff"
-- Don't edit files outside your assigned task
-
----
-
-## 🆘 Something went wrong?
-Message the group chat. Don't try to fix it yourself — you might overwrite someone else's work.
