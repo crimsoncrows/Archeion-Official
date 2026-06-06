@@ -1,3 +1,5 @@
+/*REMINDER: USE BS5 CLASSES TO REDUCE CSS BLOAT*/
+
 body {
   background: linear-gradient(to bottom, #ffffff 60%, #efa282 100%);
   background-attachment: fixed;
@@ -13,7 +15,7 @@ body {
   flex-wrap: wrap;
 }
 
-.rows-3>* {
+.rows-3 > * {
   flex: 1 1 250px;
 }
 
@@ -116,7 +118,8 @@ main {
   letter-spacing: -1px;
 }
 
-.h1-tos-title {
+.h1-tos-title,
+.h1-contact-title {
   color: #bf480d;
   font-family: MuseoModerno !important;
   font-size: 2em !important;
@@ -176,6 +179,7 @@ main {
 }
 
 /*h4*/
+
 /*h5*/
 .h5-landing {
   color: #bf480d;
@@ -193,6 +197,14 @@ main {
   font-weight: 700;
   margin-bottom: 20px;
   text-align: center;
+}
+
+.h6-contact-team {
+  color: #1a1a1a;
+  font-family: Inter, sans-serif;
+  font-size: 0.88em;
+  font-weight: 700;
+  margin-bottom: 6px;
 }
 
 /*p*/
@@ -213,11 +225,16 @@ main {
   text-align: left;
 }
 
-.p-tos-date {
+.p-tos-date,
+.p-contact-sub {
   color: #888;
   font-family: Inter;
   font-size: 0.75em;
   margin-bottom: 16px;
+}
+
+.p-contact-sub {
+  color: #363636;
 }
 
 .tos-item p {
@@ -275,6 +292,27 @@ main {
   font-weight: 700;
 }
 
+.p-contact-card-sub {
+  color: #aaa;
+  font-family: Inter, sans-serif;
+  font-size: 0.72em;
+}
+
+.p-contact-team-desc {
+  color: #555;
+  font-family: Inter, sans-serif;
+  font-size: 0.78em;
+  line-height: 1.7;
+}
+
+.p-contact-info {
+  color: #444;
+  font-family: Inter, sans-serif;
+  font-size: 0.78em;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
 /*a*/
 .button-group-landing a {
   border-radius: 15px;
@@ -315,6 +353,18 @@ main {
   font-family: Inter !important;
   font-size: 0.7em;
   font-weight: 400;
+}
+
+.contact-link {
+  color: #bf480d;
+  font-family: Inter, sans-serif;
+  font-size: 0.78em;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
 }
 
 /*multiple*/
@@ -461,6 +511,29 @@ main {
   color: #bf480d;
 }
 
+/*contact*/
+
+.contact-card {
+  border-radius: 16px !important;
+  overflow: hidden;
+}
+
+.contact-card-header {
+background-color: rgba(0, 0, 0, 0.9); 
+  padding: 28px 28px 20px;
+  text-align: center;
+}
+
+.contact-card-logo {
+  max-width: 160px;
+  width: 100%;
+}
+
+.contact-card-body {
+  background-color: #fff;
+  padding: 24px 28px;
+}
+
 /*landing page styles*/
 .landing-card {
   background-color: #fafafa;
@@ -505,7 +578,7 @@ main {
   width: 100%;
 }
 
-.features-card>div {
+.features-card > div {
   min-width: 0;
   overflow-wrap: break-word;
 }
@@ -524,13 +597,13 @@ main {
   font-size: 0.8em !important;
 }
 
-.form-group>label {
+.form-group > label {
   font-family: Inter !important;
   font-size: 0.8em !important;
   font-weight: 700;
 }
 
-.form-group>input {
+.form-group > input {
   font-family: Inter !important;
   font-size: 0.8em !important;
 }
@@ -576,13 +649,13 @@ main {
   width: 420px;
 }
 
-.form-group>label {
+.form-group > label {
   font-family: Inter;
   font-size: 0.85em;
   font-weight: 700;
 }
 
-.form-group>input {
+.form-group > input {
   font-family: Inter;
   font-size: 0.85em;
 }
@@ -666,6 +739,14 @@ main {
 .browse-btn-filter:hover {
   background-color: #191919;
 }
+
+
+
+
+
+
+
+
 
 /* Browse Detail */
 .full-text-info {
