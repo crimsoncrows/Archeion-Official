@@ -5,6 +5,17 @@ PREREQUISITE : Send email for collaboration
  
 ---
 
+🟢 Simple Option (if Git feels too complex)
+If you're not comfortable with Git yet, you can still contribute:
+
+Work on your HTML file locally in VS Code
+Create your own CSS file — name it after your task (e.g. navbar.css, dashboard.css) so it doesn't conflict with others
+When you're done, send your files to the project lead
+The project lead will put them into the correct branch for you
+
+
+💡 This is totally fine for now. You can learn Git properly later.
+
 ## 🔧 One-Time Setup (do this once)
 
 ### 1. Install Git
