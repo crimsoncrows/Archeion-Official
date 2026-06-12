@@ -99,7 +99,6 @@ main {
   text-align: center;
 }
 
-
 .h1-landing-span {
   color: #1b1a1a;
 }
@@ -109,9 +108,7 @@ main {
   letter-spacing: -1px;
   line-height: 40px;
   text-align: center;
-  font-size: 2em;
 }
-
 
 .h1-error-title {
   color: #bf480d;
@@ -598,11 +595,6 @@ background-color: rgba(0, 0, 0, 0.9);
 .input-group .form-control {
   font-family: Inter !important;
   font-size: 0.8em !important;
-}
-
-.login-card {
-  overflow: hidden;
-  width: 100%;
 }
 
 .form-group > label {
