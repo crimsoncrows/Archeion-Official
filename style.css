@@ -883,3 +883,35 @@ background-color: rgba(0, 0, 0, 0.9);
     justify-content: center;
   }
 }
+
+
+
+/* Admin */
+/* Body */
+.admin-body {
+  background: #2e2b2b;
+  background-attachment: unset;
+}
+ 
+/* Card */
+.admin-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 52px 48px 48px;
+  width: 100%;
+  max-width: 430px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.35);
+}
+ 
+/* Logo */
+.admin-logo {
+  max-width: 160px;
+  height: auto;
+}
+ 
+/* Subtitle */
+.admin-subtitle {
+  color: #888;
+  font-family: Inter, sans-serif;
+  font-size: 0.78em;
+}
