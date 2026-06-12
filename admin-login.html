@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="admin-style.css" />
+    <script src="script.js" defer></script>
   </head>
 
   <body class="admin-body d-flex align-items-center justify-content-center min-vh-100">
@@ -56,18 +56,6 @@
 
     </main>
 
-    <script>
-      function togglePass(inputId, span) {
-        const input = document.getElementById(inputId);
-        const icon = span.querySelector('i');
-        if (input.type === 'password') {
-          input.type = 'text';
-          icon.classList.replace('bi-eye', 'bi-eye-slash');
-        } else {
-          input.type = 'password';
-          icon.classList.replace('bi-eye-slash', 'bi-eye');
-        }
-      }
-    </script>
+    
   </body>
 </html>
