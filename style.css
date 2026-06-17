@@ -699,16 +699,18 @@ background-color: rgba(0, 0, 0, 0.9);
 }
 
 /*signup*/
+
 .signup-card .form-label {
   font-family: Inter;
   font-size: 0.85em !important;
   font-weight: 700;
 }
 
-.signup-card .form-control {
+.signup-card .form-control, .invalid-feedback {
   font-family: Inter;
   font-size: 0.8em !important;
 }
+
 
 /* Browse */
 .browse-search {
