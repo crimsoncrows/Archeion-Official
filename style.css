@@ -255,6 +255,20 @@ main {
   font-size: 0.78em;
 }
 
+.p-browse-result-title {
+  color: #1a1a1a;
+  font-family: Inter, sans-serif;
+  font-size: 0.85em;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.p-browse-result-meta {
+  color: #888;
+  font-family: Inter, sans-serif;
+  font-size: 0.75em;
+}
+
 .p-detail-download-note {
   color: #d3d1d1;
   font-size: 0.72em;
@@ -753,7 +767,86 @@ background-color: rgba(0, 0, 0, 0.9);
 
 
 
+/* Browse Results */
 
+.browse-results-meta {
+  color: #1a1a1a;
+  font-family: Inter, sans-serif;
+  font-size: 0.82em;
+  font-weight: 700;
+}
+
+.browse-results-sub {
+  color: #888;
+  font-family: Inter, sans-serif;
+  font-size: 0.75em;
+}
+
+.browse-results-list {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.browse-result-item {
+  border-left: none;
+  border-right: none;
+  padding: 18px 20px;
+  border-radius: 15px !important;
+  border: 1px solid #e8e8e8 !important;
+  margin-bottom: 8px;
+}
+
+.browse-result-item:first-child {
+  border-top: none;
+}
+
+.browse-result-item:hover {
+  background-color: #fdf5f2;
+}
+
+.browse-result-program {
+  color: #bf480d;
+  font-weight: 500;
+}
+
+.browse-badge-thesis {
+  background-color: #883737 !important;
+  border-radius: 8px;
+  font-family: Inter, sans-serif;
+  font-size: 0.75em;
+  padding: 6px 14px;
+}
+
+.browse-badge-capstone {
+  background-color: #4d8643 !important;
+  border-radius: 8px;
+  font-family: Inter, sans-serif;
+  font-size: 0.75em;
+  padding: 6px 14px;
+}
+
+/* Pagination */
+.browse-pagination .page-link {
+  border-color: #e0e0e0;
+  color: #1a1a1a;
+  font-family: Inter, sans-serif;
+  font-size: 0.8em;
+}
+
+.browse-pagination .page-item.active .page-link {
+  background-color: #bf480d;
+  border-color: #bf480d;
+  color: #fff;
+}
+
+.browse-pagination .page-link:hover {
+  background-color: #fdf5f2;
+  color: #bf480d;
+}
+
+.browse-pagination .page-item.disabled .page-link {
+  color: #ccc;
+}
 
 
 
