@@ -1,7 +1,7 @@
 EMAIL REQUIRED TO START PROJECT
 PREREQUISITE : Send email for collaboration
 
-LATEST : UIUPDATE6
+LATEST : uiMergedVer1
 
 > **How To Use GitHub + VSCode: Create a Repository & Merge Changes With a Pull Request**
 > 🔗 https://www.youtube.com/watch?v=eLmpKKaQL54
