@@ -135,7 +135,6 @@ main {
   text-align: center;
 }
 
-
 .h1-landing-span {
   color: #1b1a1a;
 }
@@ -145,9 +144,7 @@ main {
   letter-spacing: -1px;
   line-height: 40px;
   text-align: center;
-  font-size: 2em;
 }
-
 
 .h1-error-title {
   color: #bf480d;
@@ -656,8 +653,7 @@ main {
   overflow: hidden;
   width: 100%;
 }
-
-.form-group>label {
+.form-group> label {
   font-family: Inter !important;
   font-size: 0.8em !important;
   font-weight: 700;
