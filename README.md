@@ -11,7 +11,7 @@ LATEST : uiMergedVer1
 ## 🟢 Simple Option (if Git feels too complex)
 ### COPY ALL THE LINKS INSIDE LAYOUT.HTML HEAD TAG, REQUIRED FOR CSS AND BOOTSTRAP TO WORK. Refer to https://getbootstrap.com/ for documentation.
 ### Use style.css for branding style reference and guides folder @ uiUpdate2 Branch
-### Clone uiUpdate2 NOT MAIN
+### Clone uiMergedVer1 NOT MAIN
 
 If you're not comfortable with Git yet, you can still contribute:
 
