@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Archeion – Edit User</title>
+    <title>Archeion – Edit Research</title>
     <link rel="shortcut icon" href="imgs/logo/archeion-icon.png" type="image/x-icon" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -21,22 +21,20 @@
     <!-- Sidebar -->
     <aside class="admin-sidebar d-flex flex-column">
       <img src="imgs/logo/archeion_light.png" alt="Archeion" class="admin-sidebar-logo" />
-
       <nav class="nav flex-column gap-2 flex-grow-1">
         <a class="admin-nav-link" href="admin-dashboard.html">
           <i class="bi bi-house-door-fill"></i> Dashboard
         </a>
-        <a class="admin-nav-link active" href="admin-users.html">
+        <a class="admin-nav-link" href="admin-users.html">
           <i class="bi bi-people-fill"></i> Users
         </a>
-        <a class="admin-nav-link" href="admin-research.html">
+        <a class="admin-nav-link active" href="admin-research.html">
           <i class="bi bi-file-earmark-text-fill"></i> Research
         </a>
         <a class="admin-nav-link" href="#">
           <i class="bi bi-star-fill"></i> Feedback
         </a>
       </nav>
-
       <button class="admin-logout-btn" type="button">Logout</button>
     </aside>
 
@@ -46,9 +44,8 @@
       <!-- Header -->
       <div class="d-flex justify-content-between align-items-start mb-4">
         <div>
-          <h1 class="admin-title mb-1">Manage User</h1>
-          <p class="admin-welcome mb-0">Currently editing: <strong>001</strong></p>
-          <p class="admin-welcome mb-0">You can only edit the role as an admin.</p>
+          <h1 class="admin-title mb-1">Manage Research</h1>
+          <p class="admin-welcome mb-0">Currently editing: <strong>R001</strong></p>
         </div>
         <div class="d-flex align-items-center gap-2">
           <i class="bi bi-person-circle admin-avatar"></i>
@@ -61,38 +58,58 @@
 
         <div class="row g-3 mb-3">
           <div class="form-group col-md-6">
-            <label for="editFullName">Full Name</label>
-            <input type="text" class="form-control" id="editFullName" value="Juan dela Cruz" readonly />
+            <label for="editTitle">Title</label>
+            <input type="text" class="form-control" id="editTitle" value="The title of the thesis" />
           </div>
           <div class="form-group col-md-6">
-            <label for="editUsername">Username</label>
-            <input type="text" class="form-control" id="editUsername" value="juandelacruz" readonly />
+            <label for="editAuthor">Author</label>
+            <input type="text" class="form-control" id="editAuthor" value="John Doe" />
           </div>
         </div>
 
         <div class="form-group mb-3">
-          <label for="editEmail">Email</label>
-          <input type="email" class="form-control" id="editEmail" value="jdcruz222@student.tsu.edu.ph" readonly />
+          <label for="editAbstract">Abstract</label>
+          <textarea class="form-control" id="editAbstract" rows="4">This is a sample abstract. This includes the information about the research. It is not lengthy, just right.</textarea>
         </div>
 
-        <div class="form-group mb-2">
-          <label for="editRole">Role</label>
-          <select class="form-select admin-role-select" id="editRole">
-            <option selected>Student</option>
-            <option>Faculty</option>
+        <div class="row g-3 mb-3">
+          <div class="form-group col-md-4">
+            <label for="editYear">Year</label>
+            <select class="form-select admin-role-select" id="editYear" style="max-width: 100%;">
+              <option selected>2022</option>
+              <option>2023</option>
+              <option>2024</option>
+              <option>2025</option>
+            </select>
+          </div>
+          <div class="form-group col-md-8">
+            <label for="editProgram">Program</label>
+            <select class="form-select admin-role-select" id="editProgram" style="max-width: 100%;">
+              <option selected>Bachelor of Science in Com...</option>
+              <option>Bachelor of Science in Information Technology major in Web and Mobile Application</option>
+              <option>Bachelor of Science in Information Technology major in Technical Service Management</option>
+              <option>Bachelor of Science in Information Technology major in Network Administration</option>
+              <option>Bachelor of Science in Computer Science</option>
+              <option>Bachelor of Science in Information Systems</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group mb-4">
+          <label for="editDocType">Document Type</label>
+          <select class="form-select admin-role-select" id="editDocType">
+            <option>Thesis</option>
+            <option selected>Capstone</option>
           </select>
         </div>
 
-        <p class="admin-role-note mb-4">The default role for user is Student. Assignment of Faculty as role is manually set by the administrator.</p>
-
         <div class="d-flex gap-3">
-          <a href="admin-users.html" class="btn admin-cancel-btn">Cancel</a>
+          <a href="admin-research.html" class="btn admin-cancel-btn">Cancel</a>
           <button type="submit" class="btn admin-save-btn">Save Changes</button>
         </div>
 
       </form>
 
     </main>
-
   </body>
 </html>

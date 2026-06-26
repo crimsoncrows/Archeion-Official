@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Archeion – View Feedback</title>
+    <link rel="shortcut icon" href="imgs/logo/archeion-icon.png" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="admin-page d-flex">
+
+    <!-- Sidebar -->
+    <aside class="admin-sidebar d-flex flex-column">
+      <img src="imgs/logo/archeion_light.png" alt="Archeion" class="admin-sidebar-logo" />
+      <nav class="nav flex-column gap-2 flex-grow-1">
+        <a class="admin-nav-link" href="admin-dashboard.html">
+          <i class="bi bi-house-door-fill"></i> Dashboard
+        </a>
+        <a class="admin-nav-link" href="admin-users.html">
+          <i class="bi bi-people-fill"></i> Users
+        </a>
+        <a class="admin-nav-link" href="admin-research.html">
+          <i class="bi bi-file-earmark-text-fill"></i> Research
+        </a>
+        <a class="admin-nav-link active" href="admin-feedback.html">
+          <i class="bi bi-star-fill"></i> Feedback
+        </a>
+      </nav>
+      <button class="admin-logout-btn" type="button">Logout</button>
+    </aside>
+
+    <!-- Main content -->
+    <main class="admin-main">
+
+      <!-- Header -->
+      <div class="d-flex justify-content-between align-items-start mb-4">
+        <h1 class="admin-title mb-0">View Feedback</h1>
+        <div class="d-flex align-items-center gap-2">
+          <i class="bi bi-person-circle admin-avatar"></i>
+          <span class="admin-username">admin1</span>
+        </div>
+      </div>
+
+      <!-- Stat cards -->
+      <div class="d-flex gap-3 mb-4 flex-wrap">
+        <div class="admin-stat-card admin-stat-orange admin-stat-row" style="min-width: 180px; flex: 1;">
+          <div>
+            <div class="admin-stat-number">4</div>
+            <div class="admin-stat-label">Feedback from users</div>
+          </div>
+        </div>
+        <div class="admin-stat-card admin-stat-row" style="background-color: #f0896a; min-width: 140px; flex: 1;">
+          <div>
+            <div class="admin-stat-number">4.5</div>
+            <div class="admin-stat-label">Average Rating</div>
+          </div>
+        </div>
+        <div class="admin-stat-card admin-stat-light admin-stat-row" style="min-width: 140px; flex: 1;">
+          <div>
+            <div class="admin-stat-number" style="color: #bf480d;">2</div>
+            <div class="admin-stat-label" style="color: #bf480d;">Messages</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Search -->
+      <div class="d-flex align-items-center gap-2 mb-4">
+        <input type="text" class="form-control admin-search-input" placeholder="Search for a user ID..." style="max-width: 320px;" />
+        <button class="btn admin-search-btn" type="button">
+          <i class="bi bi-search me-1"></i> Search
+        </button>
+        <button class="btn admin-filter-btn" type="button">
+          <i class="bi bi-filter"></i>
+        </button>
+      </div>
+
+      <!-- Feedback table -->
+      <div class="admin-table-card mb-3">
+        <div class="table-responsive">
+          <table class="table admin-table mb-0">
+            <thead>
+              <tr>
+                <th>Feedback ID</th>
+                <th>User</th>
+                <th>Message</th>
+                <th>Rating</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>F01</td>
+                <td>juandelacruz</td>
+                <td>none</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>F02</td>
+                <td>garcialouis</td>
+                <td>none</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>F03</td>
+                <td>xavccs</td>
+                <td>good, shows what exactly youre looking for. does not load...</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td>F04</td>
+                <td>astg2005</td>
+                <td>Easy to use, very nice interface. would be nice if we had a r...</td>
+                <td>5</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="text-center admin-pagination-label mt-3 mb-0">Page 1 out of 1</p>
+      </div>
+
+    </main>
+  </body>
+</html>
