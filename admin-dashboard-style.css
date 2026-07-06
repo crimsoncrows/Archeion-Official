@@ -1,0 +1,249 @@
+/* Main Admin Dashboard */
+
+
+.admin-page {
+  background: #ffffff !important;
+  background-attachment: unset !important;
+}
+ 
+/* ===== Sidebar ===== */
+.admin-sidebar {
+  background-color: #2e2b2b;
+  min-height: 100vh;
+  padding: 24px 20px;
+  width: 220px;
+}
+ 
+.admin-sidebar-logo {
+  max-width: 140px;
+  margin-bottom: 32px;
+}
+ 
+.admin-nav-link {
+  align-items: center;
+  border-radius: 8px;
+  color: #cfcfcf;
+  display: flex;
+  font-family: Inter, sans-serif;
+  font-size: 0.85em;
+  font-weight: 500;
+  gap: 12px;
+  padding: 10px 14px;
+  text-decoration: none;
+  transition: background-color 0.15s, color 0.15s;
+}
+ 
+.admin-nav-link i {
+  font-size: 1.1em;
+}
+ 
+.admin-nav-link:hover {
+  background-color: #3d3a3a;
+  color: #ffffff;
+}
+ 
+.admin-nav-link.active {
+  background-color: #da602c;
+  color: #ffffff;
+}
+ 
+.admin-logout-btn {
+  background-color: #da602c;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: Inter, sans-serif;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 10px;
+  width: 100%;
+}
+ 
+.admin-logout-btn:hover {
+  background-color: #bf480d;
+  color: #ffffff;
+}
+ 
+/* ===== Main content ===== */
+.admin-main {
+  flex: 1;
+  padding: 30px 40px;
+}
+ 
+.admin-title {
+  color: #bf480d;
+  font-family: MuseoModerno, sans-serif;
+  font-size: 1.8em;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+ 
+.admin-welcome {
+  color: #444;
+  font-family: Inter, sans-serif;
+  font-size: 0.85em;
+}
+ 
+.admin-username {
+  color: #1a1a1a;
+  font-family: Inter, sans-serif;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+ 
+.admin-avatar {
+  color: #c4c4c4;
+  font-size: 2.2em;
+}
+ 
+/* ===== Stat cards ===== */
+.admin-stat-card {
+  border-radius: 16px;
+  color: #ffffff;
+  min-height: 170px;
+  padding: 24px;
+  position: relative;
+}
+ 
+.admin-stat-card .bi {
+  font-size: 2.5em;
+}
+ 
+.admin-stat-card .admin-stat-icon-top {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+ 
+.admin-stat-number {
+  font-family: Inter, sans-serif;
+  font-size: 2.2em;
+  font-weight: 700;
+}
+ 
+.admin-stat-label {
+  font-family: Inter, sans-serif;
+  font-size: 0.78em;
+}
+ 
+.admin-stat-arrow {
+  bottom: 18px;
+  color: #ffffff;
+  position: absolute;
+  right: 20px;
+}
+ 
+.admin-stat-orange {
+  background-color: #da602c;
+}
+ 
+.admin-stat-dark {
+  background-color: #2e2b2b;
+}
+ 
+.admin-stat-dark-row {
+  align-items: center;
+  background-color: #2e2b2b;
+  display: flex;
+  justify-content: space-between;
+  min-height: auto;
+  padding: 24px;
+}
+ 
+.admin-stat-row {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  min-height: auto;
+  padding: 18px 24px;
+}
+ 
+.admin-stat-row .bi {
+  font-size: 1.8em;
+}
+ 
+.admin-stat-row .admin-stat-number {
+  font-size: 1.6em;
+}
+ 
+.admin-stat-light {
+  background-color: #f8b396;
+}
+ 
+/* ===== Users table ===== */
+.admin-section-title {
+  color: #1a1a1a;
+  font-family: Inter, sans-serif;
+  font-size: 1.15em;
+  font-weight: 700;
+}
+ 
+.admin-table-card {
+  background-color: #f5f5f5;
+  border-radius: 16px;
+  padding: 20px;
+}
+ 
+.admin-table {
+  font-family: Inter, sans-serif;
+  font-size: 0.82em;
+}
+ 
+.admin-table thead th {
+  border-bottom: 2px solid #e0e0e0;
+  color: #1a1a1a;
+  font-weight: 700;
+}
+ 
+.admin-table td {
+  color: #444;
+  vertical-align: middle;
+}
+ 
+/* ===== Recent ratings ===== */
+.admin-ratings-card {
+  background: linear-gradient(to bottom, #ffffff 0%, #f8b396 100%);
+  border-radius: 16px;
+  padding: 16px;
+}
+ 
+.admin-rating-item {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  padding: 14px 16px;
+}
+ 
+.admin-rating-name {
+  color: #1a1a1a;
+  font-family: Inter, sans-serif;
+  font-size: 0.85em;
+  font-weight: 700;
+}
+ 
+.admin-rating-role {
+  color: #999;
+  font-family: Inter, sans-serif;
+  font-size: 0.72em;
+}
+ 
+.admin-rating-badge {
+  border-radius: 12px;
+  color: #ffffff;
+  font-family: Inter, sans-serif;
+  font-size: 0.8em;
+  font-weight: 700;
+  padding: 6px 14px;
+}
+ 
+.admin-rating-5 {
+  background-color: #4caf50;
+}
+ 
+.admin-rating-3 {
+  background-color: #f0c419;
+}
+ 
