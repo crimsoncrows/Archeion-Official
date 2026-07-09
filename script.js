@@ -340,7 +340,6 @@ function renderTopicHeatmap() {
 
   let html = "";
 
-  // One row per topic: a label cell followed by one colored segment per year
   topics.forEach((topic) => {
     html += `<div class="heatmap-row-label">${topic}</div>`;
 
@@ -369,4 +368,4 @@ function getHeatmapSwatchClass(value) {
   if (value <= 11) return "heatmap-swatch-3";
   if (value <= 15) return "heatmap-swatch-4";
   return "heatmap-swatch-5";
-}
+}  // One row per topic: a label cell followed by one colored segment per year
