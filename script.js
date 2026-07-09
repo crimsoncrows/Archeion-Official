@@ -143,6 +143,38 @@ if (document.getElementById('userInputText')) {
   document.getElementById('userInputText').addEventListener('input', countWords);
 }
 
+
+
+//PROFILE EDIT VALIDATIONS
+function checkCurrentPassword() {
+    const currentPass = document.getElementById('current-password');
+    const MOCK_PASSWORD = 'password'; // replace with backend check later
+
+    if (currentPass.value === '') {
+        errors.delete('Invalid current password.');
+        currentPass.setCustomValidity('');
+        updateError();
+        return;
+    }
+
+    if (currentPass.value !== MOCK_PASSWORD) {
+        errors.add('Invalid current password.');
+        currentPass.setCustomValidity('invalid');
+    } else {
+        errors.delete('Invalid current password.');
+        currentPass.setCustomValidity('');
+    }
+    updateError();
+}
+
+
+//CALLS
+if (document.getElementById('current-password')) {
+    document.getElementById('current-password').addEventListener('input', checkCurrentPassword);
+}
+
+
+
 // TRENDS PAGE
 
 document.addEventListener("DOMContentLoaded", function () {
