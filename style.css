@@ -141,7 +141,12 @@ main {
 .h1-landing-span {
   color: #1b1a1a;
 }
+<<<<<<< HEAD
+
+
+=======
  
+>>>>>>> origin/uiMergedVer1
 .h1-login {
   font-weight: 700;
   letter-spacing: -1px;
@@ -812,6 +817,8 @@ main {
 
 
 
+<<<<<<< HEAD
+=======
 
 /* Browse Results */
 
@@ -898,6 +905,7 @@ main {
 
 
  
+>>>>>>> origin/uiMergedVer1
 /* Browse Detail */
 .full-text-info {
   font-family: Inter !important;
@@ -1488,6 +1496,125 @@ main {
   text-align: center;
 }
 
+<<<<<<< HEAD
+/* homepage */
+.homepage-main{
+  padding-top: 100px;
+  padding-bottom: 60px;
+  padding-left: 80px;
+}
+
+.greeting-homepage{
+  color: #1b1a1a;
+  letter-spacing: -2px;  
+  line-height: 40px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.greeting-homepage-span {
+    color: #bf480d;
+
+}
+
+.stat-card1 {
+    background-color: #0c0c0c;
+    border: 1px solid #e8e8e8;
+    border-radius: 16px;
+    padding: 24px 28px;
+    text-align: center;
+    flex: 1;
+    max-width: 450px;
+}
+
+.stat-number{
+  font-size:50px;
+  color: white;
+  font-weight: 700;
+
+}
+
+.stat-label{
+   font: size 1px;
+   color: white; 
+   text-transform:none;
+}
+
+.stat-card2 {
+    background: conic-gradient(from 180deg at 50% 50%, #DA602C 0deg, #363130 81.35deg, #DA602C 360deg);
+    border: 1px;   
+    border-radius: 16px;
+    flex: 1;
+    max-width: 700px;
+    padding: 24px 28px;
+    text-align: left;
+    position:relative;
+    
+}
+
+.cta-btn{
+  position: absolute;
+  bottom: 15px;
+  right :20px;
+  background: none;
+  color: white;
+}
+
+.cta-headline{
+  font-family: 'MuseoModerno';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 100%;
+  color:#EAEAEA;
+  text-align: left  ;
+  display: block;
+}
+
+.cta-headline-span{
+  text-align: left;
+  display: block;
+}
+
+.cta-headline-sub{
+color:#EAEAEA;
+font-size: 15px;
+display:block
+}
+
+
+.cta-fire-img{
+  position: absolute;
+    top: 20px;
+    right: 10px;
+    width: 70px;
+    height: 70px;
+  
+}
+
+.search{
+ margin: 80px;
+}
+
+.search-wrapper {
+  max-width: 640px;
+  width: 100%;
+}
+
+.btn-search{
+  color: white;
+  background-color: black;
+}
+
+ @media (max-width: 576px) {
+  .homepage-main {
+      padding-top: 80px;
+      padding-left: 16px;
+      padding-right: 16px;
+  }
+ }
+
+=======
 /* Admin */
 /* Body */
 .admin-body {
@@ -1916,3 +2043,4 @@ main {
   background-color: #1a1a1a;
   color: #ffffff;
 }
+>>>>>>> origin/uiMergedVer1
